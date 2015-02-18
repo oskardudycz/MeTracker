@@ -1,3 +1,7 @@
+Router.route('/', function () {
+  this.render('Home', {  });
+});
+
 if (Meteor.isClient) {
   // counter starts at 0
   Session.setDefault('counter', 0);
