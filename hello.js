@@ -1,5 +1,5 @@
 Router.route('/', function () {
-  this.render('Home', {  });
+  this.render('index', {  });
 });
 
 if (Meteor.isClient) {
