@@ -45,8 +45,8 @@ Meteor.startup(function() {
      */
     createServiceConfiguration('facebook', '1564539133786096', 'df321ad9b7af53172f4f2703d4adb7f6');
     createServiceConfiguration('github', '1753e501612cd59fa595', '1397acba951e1b958b30dfed884997d2da07f773');
-    createServiceConfiguration('google', 'Insert your clientId here.', 'Insert your secret here.');
-    createServiceConfiguration('twitter', 'Insert your consumerKey here.', 'Insert your secret here.');
+    createServiceConfiguration('google', '697332780400-r7jh3on8r3u99tee1gqokl3m1n3bbvpa.apps.googleusercontent.com', 'Ov296biuVPY3lXZ1aQTBV4tg');
+    createServiceConfiguration('twitter', '60hbNd8PPZy6wCvctqvxVvkwS', 'GT8MoMzNmcoRSsQCAF9cIOKZRqOFRjwD5STICy4e3ip1ZvAxvw');
 
     /*
      Generate Test Accounts
