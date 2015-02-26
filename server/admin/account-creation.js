@@ -5,12 +5,12 @@
 var determineEmail;
 
 determineEmail = function(user) {
-    var emailAddress, services;
+    var services;
     if (user.emails) {
-        return emailAddress = user.emails[0].address;
+        return user.emails[0].address;
     } else if (user.services) {
         services = user.services;
-        return emailAddress = (function() {
+        return (function() {
             switch (false) {
                 case !services.facebook:
                     return services.facebook.email;
