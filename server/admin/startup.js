@@ -49,6 +49,11 @@ Meteor.startup(function() {
     createServiceConfiguration('twitter', '60hbNd8PPZy6wCvctqvxVvkwS', 'GT8MoMzNmcoRSsQCAF9cIOKZRqOFRjwD5STICy4e3ip1ZvAxvw');
 
     /*
+     Configure mailgun
+     */
+    process.env.MAIL_URL = 'smtp://postmaster@sandboxdd1a4d18a85847dabf42e39bf1064378.mailgun.org:ff1072df87382624bb4ba5b652be7a59@smtp.mailgun.org:587';
+
+    /*
      Generate Test Accounts
      Creates a collection of test accounts automatically on startup.
      */
